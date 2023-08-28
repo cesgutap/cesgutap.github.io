@@ -1,0 +1,49 @@
+/* Reset some default styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #444;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.project {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project h2 {
+    margin-top: 10px;
+}
+
+.project p {
+    margin-top: 5px;
+}
